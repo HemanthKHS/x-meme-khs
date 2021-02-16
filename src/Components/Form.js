@@ -39,7 +39,7 @@ import React, { Component } from "react";
                 body: JSON.stringify(this.state)
             };
             fetch('https://x-meme-khs.herokuapp.com/memes', requestOptions)
-            .then(window.location.reload();)
+            .then(window.location.reload())
             this.setState({
                 "name": "",
                 "caption": "",
