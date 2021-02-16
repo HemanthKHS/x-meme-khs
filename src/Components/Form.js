@@ -45,7 +45,7 @@ import React, { Component } from "react";
                 "caption": "",
                 "url": "",
             }))
-            .then(b = >window.location.reload())
+            .then(b => window.location.reload())
     
             
              
